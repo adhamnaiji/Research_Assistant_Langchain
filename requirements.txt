@@ -1,9 +1,9 @@
-langchain-perplexity
-langchain-community
-langchain-perplexity
 streamlit
-faiss-cpu
-pypdf
-python-dotenv
-sentence-transformers
+langchain
 langchain-text-splitters
+langchain-community
+langchain-core
+langchain-openai
+openai
+tiktoken
+faiss-cpu
