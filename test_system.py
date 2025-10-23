@@ -9,7 +9,7 @@ def test_document_processing():
     processor = DocumentProcessor(chunk_size=500, chunk_overlap=50)
     
     # Test with sample PDF
-    sample_pdf = "sample_document.pdf"  # Replace with your test PDF
+    sample_pdf = "docker.pdf"  # Replace with your test PDF
     vectorstore = processor.process_pdf(sample_pdf, save_path="test_vectorstore")
     
     print(f"✓ Vector store created successfully")
